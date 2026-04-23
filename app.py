@@ -48,8 +48,16 @@ with skill_col1:
 with skill_col2:
     st.subheader("Frameworks and Tools")
     st.markdown("""
-            - Git & GitHub
-            - Streamlit
-            - VS Code
-            - Intellij 
+            - Version control systems 
+            - Intergrated development environment 
+            - Testing frameworks
+            - Containerisation
             """)
+with skill_col3:
+    st.subheader("Currently learning")
+    st.markdown("""
+            - Streamlit 
+            - Database management software 
+            - Software release management 
+        """)
+st.divider()
