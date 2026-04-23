@@ -26,3 +26,30 @@ with col2:
                  unsafe_allow_html = True) #This allows the markdown to render as HTML, which is necessary for the links to work
 #A horizontal 
 st.divider()
+#---ABOUT ME---
+st.header("About Me")
+st.write("""I build solutions where technical rigor meets strategic coordination.
+         Forged in the peer-to-peer intensity of WeThinkCode_, 
+         I developed a foundation in Java and Python with a focus on clean code and robust systems.
+          Beyond the IDE, I am passionate about the SDLC and the architecture of a project—ensuring that technical logic aligns with human objectives.""")        
+st.divider()
+#---SKILLS ---
+st.header("Skills")
+skill_col1, skill_col2, skill_col3 = st.columns(3)
+with skill_col1:
+    st.subheader("Languages")
+    #st.markdown with a butllet list 
+    st.markdown("""
+            - Python
+            - Java
+            - SQLite
+            - HTML
+        """)
+with skill_col2:
+    st.subheader("Frameworks and Tools")
+    st.markdown("""
+            - Git & GitHub
+            - Streamlit
+            - VS Code
+            - Intellij 
+            """)
